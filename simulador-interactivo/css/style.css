@@ -1,0 +1,31 @@
+h1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: rgb(243, 55, 8);*/
+    height: 10vh;
+    width: 100vw;
+    color: rgb(189, 207, 22);
+    font-family: fantasy;
+    font-size: 4rem;
+    padding-top: 200px;
+    
+}
+p{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(189, 207, 22);
+    font-family: fantasy;
+    font-size: 2rem;
+}
+
+.contenedor2{
+   
+    background-image: url(../assets/coder.jpg);
+    height: 100vh; /* para que se ajuste al tamaño de mi ventana (vh viewport-height = altura de la ventana grafica)
+    el contenido se va adaptar al 100% de la altura de la ventana . puedo poner 50% y solo va ocupar el 50% de la ventana */
+    width: 100vw; /* aplkica lo mismo pero en este caso es para el ancho de pantalla*/
+     background-size:cover;
+    
+}
