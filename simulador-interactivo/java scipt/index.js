@@ -54,7 +54,7 @@ function areaTriangulo(base, altura){
     
     let validar1 = true
     do{
-        baseMayor = parseInt(prompt("Ingrese base mayor del rombo ")) 
+        baseMayor = parseInt(prompt("Ingrese base mayor del trapecio ")) 
     
    
     if(isNaN(baseMayor)){
@@ -68,7 +68,7 @@ function areaTriangulo(base, altura){
                 ////////////////////////////segunda validacion de datos/////////////////// 
         let validar2 = true
         do{
-            baseMenor = parseInt(prompt("Ingrese base menor del rombo ")) 
+            baseMenor = parseInt(prompt("Ingrese base menor del trapecio ")) 
        
     
    
@@ -84,7 +84,7 @@ function areaTriangulo(base, altura){
                         let validar3 = true
 
                         do{
-                            altura = parseInt(prompt("Ingrese altura del rombo ")) 
+                            altura = parseInt(prompt("Ingrese altura del trapecio ")) 
                    
                                 if(isNaN(altura)){
                                     alert (`el valor ingresado ${altura} no es un numero`)
